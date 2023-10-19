@@ -12,7 +12,7 @@ const LineItem = ({ item, handleCheck, handleDelete }) => {
       <input
         type="checkbox"
         checked={item.checked}
-        onClick={() => handleCheck(item.id)}
+        onChange={() => handleCheck(item.id)}
       />
       <label
         style={
