@@ -2,7 +2,7 @@
   "items": [
     {
       "id": 2,
-      "checked": false,
+      "checked": true,
       "item": "drugi item"
     },
     {
